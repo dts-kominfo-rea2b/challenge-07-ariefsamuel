@@ -7,7 +7,6 @@ const promiseOutput = (hasil) => {
     promiseTheaterIXX()
       .then((reaksi) => {
         reaksi.forEach((item) => {
-          
           if (item.hasil === null) {
             reject("janji tinggal janji")
           }
@@ -20,7 +19,6 @@ const promiseOutput = (hasil) => {
         promiseTheaterVGC()
         .then((reaksi) => {
           reaksi.forEach((item) => {
-            
             if (item.hasil === null) {
               reject("janji tinggal janji")
             }
